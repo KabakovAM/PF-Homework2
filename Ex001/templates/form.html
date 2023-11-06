@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="/submit/" method='post'>
+        <input type="text" placeholder="name" name="name">
+        <input type="submit" value="name">
+    </form>
+</body>
+
+</html>
